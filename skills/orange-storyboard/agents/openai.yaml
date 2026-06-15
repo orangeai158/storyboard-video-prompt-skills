@@ -1,0 +1,7 @@
+interface:
+  display_name: "橘子漫游的故事板提示词"
+  short_description: "把短片、广告或故事概念扩写成九宫格故事板提示词，并生成图生视频提示词。"
+  default_prompt: "Use $orange-storyboard to turn my short film or advertising idea into a nine-panel storyboard prompt."
+
+policy:
+  allow_implicit_invocation: true

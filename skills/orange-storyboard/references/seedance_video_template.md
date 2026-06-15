@@ -4,14 +4,20 @@ Use this reference when generating Seedance 2.0 prompts from a confirmed storybo
 
 ## Preconditions
 
-Seedance prompts should be generated from the final confirmed storyboard. If the user has not confirmed a storyboard, ask for the final storyboard or offer to create the Image2 storyboard first.
+Seedance prompts should be generated from a storyboard provided by the user. The storyboard can be in any format: an Image2 nine-panel grid, a hand-drawn scan, a text description of panels, or any other sequential panel format. If the user has not provided any storyboard, ask them to provide one or offer to create the Image2 storyboard first.
 
-Never tell Seedance to animate the full nine-grid sheet as a single image. The prompt must state that the uploaded final storyboard is the visual reference and the video must be generated panel by panel in order.
+When the source is a nine-panel grid image, never tell Seedance to animate the full sheet as a single image. The prompt must instruct that the video be generated panel by panel in order. When the source is a text or other non-image storyboard, derive the visual reference from the panel descriptions instead.
 
 ## Output Format
 
+All output must be in Chinese. Camera movement terms may remain in English when they are clearer (e.g. slow push in, rack focus, tracking shot, hero shot, locked-off). The Seedance prompt text field must also be written in Chinese, not English.
+
+When the storyboard panels are not numbered, do not reference panels by position (左上、中上 etc.). Instead, number them 镜头1–镜头9 sequentially and identify each by its content (e.g. "门口全景建立镜头" or "猫靠近手指特写").
+
+Output must not exceed 2000 Chinese characters in total.
+
 ```markdown
-## 2. Seedance 2.0 视频制作提示词
+## 2. 图生视频提示词
 
 使用上传的最终九宫格故事板作为唯一主要视觉参考。不要整图生成，不要把九宫格当成一张完整图片来动画化，必须按第 1 格到第 9 格的分镜顺序生成连续视频。
 
@@ -24,17 +30,16 @@ Never tell Seedance to animate the full nine-grid sheet as a single image. The p
 - 音乐/声音方向：
 - 统一负面约束：
 
-分镜视频提示词：
+分镜提示词：
 
-镜头 1 / 0:00-0:02
-- 参考图：第 1 格故事板
-- 画面动作：
-- 镜头运动：
+镜头 1 / 0:00-0:02 ｜ [内容简述]
+- 画面：
+- 镜头：
 - 转场：
 - 声音：
-- Seedance 提示词：
+- 动作：
 
-镜头 2 / 0:02-0:04
+镜头 2 / 0:02-0:03.5 ｜ [内容简述]
 ...
 ```
 

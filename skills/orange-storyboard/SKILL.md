@@ -1,6 +1,6 @@
 ---
-name: orange-roaming-storyboard-prompt
-description: Use this skill when the user wants to turn a short film idea, advertising concept, story project card, TVC concept, animation short, cyberpunk or wuxia concept, warm emotional short, or other video/storyboard brief into a nine-panel Image2 storyboard prompt, or when the user asks in Chinese for 九宫格故事板, 故事板提示词, Image2 分镜, TVC 广告故事板, 动漫短片分镜, 武侠分镜, 赛博朋克分镜, or Seedance 2.0 图生视频提示词 based on a confirmed storyboard. Do not use for ordinary chat, research, article writing, coding, single-image illustration prompts, or non-storyboard image prompts without video or sequential storytelling needs.
+name: orange-storyboard
+description: Use this skill when the user wants to turn a short film idea, advertising concept, story project card, TVC concept, animation short, cyberpunk or wuxia concept, warm emotional short, or other video/storyboard brief into a nine-panel Image2 storyboard prompt, or when the user asks in Chinese for 九宫格故事板, 故事板提示词, 生成故事板, 做故事板, 帮我做分镜, 分镜脚本, 分镜提示词, Image2 分镜, TVC 广告故事板, 动漫短片分镜, 武侠分镜, 赛博朋克分镜, or Seedance 2.0 图生视频提示词, 图生视频, 视频提示词, 生成视频, 把故事板做成视频, 视频分镜提示词 based on a confirmed storyboard. Do not use for ordinary chat, research, article writing, coding, single-image illustration prompts, or non-storyboard image prompts without video or sequential storytelling needs.
 ---
 
 # Orange Roaming Storyboard Prompt
@@ -34,8 +34,8 @@ Do not use this skill when the user only wants:
 
 First identify the requested phase:
 
-- **Image2 phase**: User wants a nine-panel storyboard or storyboard prompt.
-- **Seedance phase**: User has a confirmed storyboard and wants video prompts.
+- **Storyboard phase**: User wants a nine-panel storyboard or storyboard prompt. Not limited to Image2 — applies to any image generation tool or style the user specifies.
+- **Seedance phase**: User provides any storyboard (Image2 nine-panel, hand-drawn, text description of panels, or other format) and wants video prompts.
 - **Mixed phase**: User asks for both. Produce the Image2 storyboard first, then ask for confirmation before final Seedance prompts unless the user explicitly says to proceed directly.
 
 If key details are missing, infer a tasteful default and mark it as an assumption. Ask a question only when the missing detail changes the core subject, brand/product, protagonist, or required format.
@@ -53,12 +53,19 @@ If key details are missing, infer a tasteful default and mark it as an assumptio
    - 情绪目标
    - 必须保持
    - 禁止出现
-2. Build continuity anchors:
+2. If the user uploads reference images, establish their role before building the storyboard:
+   - Character or person reference: controls face, age, hair, outfit, silhouette, and expression range. Lock these details in every panel.
+   - Product reference: controls exact shape, material, color, logo placement, and surface finish. Do not alter these across panels.
+   - Environment or location reference: controls architecture, color palette, lighting direction, and spatial layout.
+   - Style or mood reference: controls rendering texture, color grade, and visual atmosphere. Does not override character or product locks.
+   - If multiple references are uploaded, state explicitly which reference controls which element before outputting the storyboard.
+   - If no reference is uploaded, derive all anchors from the user's text description.
+3. Build continuity anchors:
    - Character identity, clothing, age, silhouette, expression range.
    - Product appearance, material, color, logo visibility, placement.
    - World rules, location logic, lighting direction, time of day.
    - Recurring visual motif or emotional object when useful.
-3. For Image2, create a nine-panel storyboard:
+4. Create a nine-panel storyboard:
    - The nine panels must form a clear beginning, development, turn, climax, and ending.
    - Each panel should include subject, action, scene, composition, camera/lens feel, lighting, mood, and continuity notes.
    - Preserve the same protagonist/product/setting unless the story intentionally changes them.
@@ -66,11 +73,12 @@ If key details are missing, infer a tasteful default and mark it as an assumptio
    - Use the template in `references/image2_storyboard_template.md` when detailed formatting is needed.
    - Use `references/storyboard_case_patterns.md` to choose the right narrative pattern for emotional shorts, TVCs, travel films, wuxia, cyberpunk, action comedy, or character boards.
    - Use `references/style_genre_rules.md` when the user asks for a specific visual genre or the concept implies one.
-4. For Seedance, only after the storyboard is confirmed:
+5. For Seedance, only after the user provides a storyboard in any format (Image2 nine-panel, hand-drawn scan, text panel descriptions, or other):
    - Generate prompts in storyboard order for an approximately 15-second video.
    - Include shot duration, camera movement, subject action, transition, sound/music suggestion, and negative constraints.
    - Use the template in `references/seedance_video_template.md` when detailed formatting is needed.
-5. End with optional micro-adjustments:
+   - **Hard rule**: if the user asks for Seedance but has not provided any storyboard, ask them to provide one or offer to create the Image2 storyboard first. Do not infer a storyboard from scratch and proceed directly to Seedance output.
+6. End with optional micro-adjustments:
    - Offer 2-4 focused tuning directions, such as more commercial, more cinematic, more emotional, more surreal, or more product-forward.
 
 ## Quality Bar
@@ -90,11 +98,11 @@ Use this default structure:
 ```markdown
 ## 1. 项目卡整理
 
-## 2. Image2 故事板生成提示词
+## 2. 故事板生成提示词
 或
-## 2. Seedance 2.0 视频制作提示词
+## 2. 图生视频提示词
 
 ## 3. 可选微调建议
 ```
 
-When the user only asks for Seedance and provides no confirmed storyboard, first ask them to provide the final storyboard or offer to create the Image2 storyboard first.
+When the user only asks for Seedance and has not provided any storyboard, first ask them to provide one (any format) or offer to create the Image2 storyboard first.

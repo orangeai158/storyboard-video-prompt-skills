@@ -87,3 +87,56 @@ Use for rain, memory, loneliness, vending machine, capsules, old-future contrast
 - Emotion: lonely, restrained, no melodrama.
 - Camera: shallow depth of field, neon backlight, close-up on coin/object/face, final wide rain silhouette.
 - Avoid: readable text, game UI, crowds, overdecorated neon chaos, clean modern vending machine, protagonist doing the forbidden action.
+
+## Chinese Ink Wash (水墨国风)
+
+Use for classical Chinese landscape, poetry, calligraphy mood, mountains and mist, scholars, traditional figures, or abstract nature imagery.
+
+- Background: flowing ink wash, wet-on-wet bleed edges, large white breathing space, layered mountain or bamboo silhouettes in receding values.
+- Color: monochrome ink with selective washes of pale ochre, ink blue, or cinnabar red; never full-color realism.
+- Composition: asymmetric, heavy use of negative space, subjects placed off-center, diagonal mountain or water lines for depth.
+- Texture: visible brushstroke directionality, paper grain, ink pooling at stroke ends, soft diffusion at wash edges.
+- Camera: locked wide shot for landscape, extreme close-up for calligraphy or ink drop detail, slow pull back to reveal scale.
+- Avoid: hard digital outlines, flat vector fill, photograph-realistic rendering, over-saturated color, modern objects, cluttered composition.
+
+## Urban Romance (都市爱情)
+
+Use for modern city love stories, late-night convenience stores, rainy streets, rooftop encounters, café interiors, or quiet emotional distance in a crowd.
+
+- World: contemporary urban settings — glass storefronts, subway platforms, pedestrian crossings, apartment balconies, bookstores. Real city texture without sci-fi or period elements.
+- Color: warm amber or soft teal color grading, film emulsion grain, gentle lens flare, low-contrast highlights.
+- Camera: `35mm lens feel`, `handheld subtle motion` for intimacy, `rack focus` between protagonist and city background, `tracking shot` following a walk.
+- Acting: restrained glances, hands almost touching, reflections in glass, figures in rain, small meaningful objects — umbrella, coffee cup, folded note.
+- Avoid: period costumes, fantasy elements, over-saturated filters, melodramatic expressions, CG crowd extras, generic stock-photo composition.
+
+## Hard Sci-Fi Futuristic (科幻未来)
+
+Use for space exploration, near-future Earth, megastructures, astronauts, AI encounters, cold mechanical environments, or humanity-versus-technology themes.
+
+- World: orbital stations, alien terrain, server corridors, cryo-sleep chambers, launch pads, desolate planetary surfaces. Every environment must be physically readable — no abstract glowing voids.
+- Color: cold steel blue, deep black vacuum, accent colors limited to warning orange or visor green; high contrast between dark environment and single light source.
+- Material: brushed titanium, carbon composite, frosted glass, exposed wiring, worn mission patches, condensation on cold surfaces.
+- Camera: `wide establishing shot` for scale, `hero shot` for spacecraft or suit detail, `slow push in` for human face inside helmet, `locked symmetrical frame` for control rooms.
+- Lighting: single hard key light source (star, screen glow, helmet lamp), deep shadow fill, edge rim on suits and hardware.
+- Avoid: fantasy magic, glowing neon decoration, futuristic fashion runway aesthetics, readable alien text, Earth-tone warm palettes, lens flare overuse, busy HUD overlaid on every frame.
+
+## European Fairy Tale (欧式童话)
+
+Use for enchanted forests, castle interiors, talking animals, magical objects, children's adventure, or storybook warmth with a hint of mystery.
+
+- World: hand-painted storybook environments — mossy stone castles, lantern-lit village lanes, giant mushroom glades, snow-covered clock towers, overgrown gardens with iron gates.
+- Color: warm ochre and moss green base, soft candlelight gold, deep violet shadows, accent of sky blue or berry red on key objects.
+- Texture: watercolor wash with visible paper grain, gouache opacity for foreground elements, ink line that varies in weight, charming imperfection.
+- Characters: expressive rounded silhouettes, large eyes, simple costume with one distinctive accessory (cape, lantern, crown, basket).
+- Camera: low-angle wonder shot looking up at castle or tree, `slow push in` toward glowing window or magical object, wide symmetrical establishing shot for enchanted locations.
+- Avoid: horror tone, realistic anatomy, modern objects, photographic rendering, manga-style speed lines, dark gore or violence.
+
+## Documentary (纪录片风格)
+
+Use for real-event reconstructions, nature subjects, social observation, athlete profiles, craft or food process, or any concept that demands gritty authenticity over stylization.
+
+- Camera: `handheld subtle motion` throughout, zoom-in observation without announcing itself, `tracking shot` following a subject in motion, `rack focus` to redirect attention naturally. No locked-off symmetrical frames unless the scene demands ceremony.
+- Color: natural available light, minimal color grading — daylight is cool and blue, interior tungsten is warm amber; never push saturation.
+- Composition: slightly off-center subjects, accidental negative space, foreground obstruction (window frame, doorway, crowd edge) to imply the camera is witnessing, not staging.
+- Acting/subjects: caught mid-action rather than posed, partial faces acceptable, motion blur on fast movement, blink or breath visible.
+- Avoid: dramatic hero lighting, beauty-retouched skin, stylized color grades, symmetrical beauty shots, CG enhancement, visible production staging cues.

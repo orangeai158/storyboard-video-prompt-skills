@@ -1,6 +1,6 @@
-# Image2 Nine-Panel Storyboard Template
+# Nine-Panel Storyboard Template
 
-Use this reference when generating detailed Image2 storyboard prompts.
+Use this reference when generating detailed storyboard prompts. This template is not limited to Image2 — it applies to any image generation tool or style the user specifies.
 
 ## Project Card Format
 
@@ -25,11 +25,11 @@ Only include `默认假设` when the user omitted important details and the skil
 ## Storyboard Prompt Format
 
 ```markdown
-## 2. Image2 故事板生成提示词
+## 2. 故事板生成提示词
 
 创建一张专业电影级九宫格故事板，用于 [项目类型]《[标题]》的前期制作。
 
-布局：[比例] 横版九宫格故事板，3x3 grid，正好 9 格。每格是独立清晰的分镜，干净边框，阅读顺序从左到右、从上到下。整体是连续叙事 storyboard，不是九张独立海报，不是杂乱拼贴。
+布局：[比例] 横版九宫格故事板，3x3 grid，正好 9 格。每格是独立清晰的分镜，干净边框，阅读顺序从左到右、从上到下。整体是连续叙事 storyboard，不是九张独立海报，不是杂乱拼贴。可以保留极小的 1-9 分镜编号。
 
 统一视觉设定：
 [角色、产品、场景、光线、色彩、镜头质感、风格关键词、画质要求]

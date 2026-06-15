@@ -1,7 +1,0 @@
-interface:
-  display_name: "橘子漫游的故事板提示词"
-  short_description: "把短片、广告或故事概念扩写成 Image2 九宫格故事板和 Seedance 视频提示词。"
-  default_prompt: "Use $orange-roaming-storyboard-prompt to turn my short film or advertising idea into an Image2 nine-panel storyboard prompt."
-
-policy:
-  allow_implicit_invocation: true
