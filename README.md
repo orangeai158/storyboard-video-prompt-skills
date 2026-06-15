@@ -1,5 +1,5 @@
 # storyboard-video-prompt-skill
-# 橘子漫游AI故事板提示词 Skill
+# 橘子漫游AI的故事板提示词 Skill
 
 把短片创意、广告概念或故事简报扩写成九宫格分镜提示词，并基于生成的故事板输出图生视频提示词。
 
