@@ -16,10 +16,12 @@
 ```
 女孩在门口蹲下来和一只猫打招呼，门口的风铃在响，老式动画日系风格
 ```
+<img width="1672" height="941" alt="4d4c80b0-7ea7-4e57-b55f-b1af72fd8960" src="https://github.com/user-attachments/assets/59dfc399-53cd-4a43-8455-aaaa6282fd9a" />
 
 ```
 高端香水 TVC，16:9，欧洲清晨古堡花园风格
 ```
+<img width="1672" height="941" alt="故事板" src="https://github.com/user-attachments/assets/9a2363b5-da5a-4f7e-a182-59ed5b8a69b0" />
 
 **第二步：生成图生视频提示词**
 
