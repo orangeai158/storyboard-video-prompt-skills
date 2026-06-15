@@ -1,6 +1,6 @@
 ---
 name: orange-roaming-storyboard-prompt
-description: Use this skill when the user wants to turn a short film idea, advertising concept, story project card, TVC concept, animation short, cyberpunk or wuxia concept, warm emotional short, or other video/storyboard brief into a nine-panel Image2 storyboard prompt, or when the user wants Seedance 2.0 image-to-video prompts based on a confirmed storyboard. Do not use for ordinary chat, research, article writing, coding, single-image illustration prompts, or non-storyboard image prompts without video or sequential storytelling needs.
+description: Use this skill when the user wants to turn a short film idea, advertising concept, story project card, TVC concept, animation short, cyberpunk or wuxia concept, warm emotional short, or other video/storyboard brief into a nine-panel Image2 storyboard prompt, or when the user asks in Chinese for 九宫格故事板, 故事板提示词, Image2 分镜, TVC 广告故事板, 动漫短片分镜, 武侠分镜, 赛博朋克分镜, or Seedance 2.0 图生视频提示词 based on a confirmed storyboard. Do not use for ordinary chat, research, article writing, coding, single-image illustration prompts, or non-storyboard image prompts without video or sequential storytelling needs.
 ---
 
 # Orange Roaming Storyboard Prompt

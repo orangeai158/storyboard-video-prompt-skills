@@ -30,6 +30,17 @@ Use for scent, flowers, glass, morning, femininity, nature, castle, dressing roo
 - Camera: macro dew, floating petals, `match cut`, `slow pull back`, final centered product.
 - Avoid: black background unless requested, dark horror forest, cheap CGI, mineral bottle, ceramic bottle, plastic bottle, hands covering product, fake brand text.
 
+## Premium Product TVC
+
+Use for high-end appliances, smart hardware, food/drink devices, skincare tools, furniture, stationery, bags, or other products that need a premium commercial storyboard but do not fit watch or perfume rules.
+
+- Product lock: exact silhouette, material, color, surface finish, buttons, ports, indicator lights, packaging, logo/text policy.
+- World: one controlled environment that supports the product's value, such as morning kitchen, studio desk, modern bathroom, boutique counter, quiet workshop, or city apartment.
+- Visual proof: show product material, core function, user interaction, transformation/result, and final `hero shot`.
+- Camera: macro detail, clean side profile, `slow push in`, `rack focus`, `match cut`, controlled reflections, shallow depth of field.
+- Color: restrained palette with one accent color from the product or environment.
+- Avoid: fake brand marks, unreadable UI text, distorted buttons/ports, extra product variants, cheap catalog image, cluttered lifestyle background, unclear function.
+
 ## Bright 3D Animation
 
 Use for cute adventure, child protagonist, delivery, town, surprise, birthday, or object mission.
