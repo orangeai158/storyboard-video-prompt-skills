@@ -27,7 +27,9 @@ Only include `默认假设` when the user omitted important details and the skil
 ```markdown
 ## 2. Image2 故事板生成提示词
 
-请生成一张九宫格故事板，整体为 [比例]，九个画面连续叙事，主角/产品/场景保持一致。
+创建一张专业电影级九宫格故事板，用于 [项目类型]《[标题]》的前期制作。
+
+布局：[比例] 横版九宫格故事板，3x3 grid，正好 9 格。每格是独立清晰的分镜，干净边框，阅读顺序从左到右、从上到下。整体是连续叙事 storyboard，不是九张独立海报，不是杂乱拼贴。
 
 统一视觉设定：
 [角色、产品、场景、光线、色彩、镜头质感、风格关键词、画质要求]
@@ -47,6 +49,17 @@ Only include `默认假设` when the user omitted important details and the skil
 负面提示词：
 [禁止元素、错误风格、角色不一致、产品变形、logo 错误、多余文字、低清晰度等]
 ```
+
+## Lock Sections
+
+Use the lock sections that fit the project:
+
+- `【核心创意】`: one paragraph describing the story, emotional turn, or commercial idea.
+- `【角色锁定】`: protagonist identity, age, hair, outfit, expression rules, recurring props.
+- `【产品锁定】`: product shape, material, color, logo/text policy, what must never change.
+- `【场景锁定】`: where each panel happens, what can change, what must stay fixed.
+- `【视觉风格】`: concrete lighting, color, camera, texture, and genre terms.
+- `【参考优先级】`: when uploaded references exist, state what each reference controls.
 
 ## Nine-Panel Narrative Rhythm
 
@@ -70,6 +83,15 @@ Repeat the anchors in every panel where relevant:
 - Product: exact shape, material, color, logo placement, scale, surface details.
 - Environment: time of day, architecture, weather, color temperature.
 - Style: rendering mode, film stock/camera feel, lighting behavior, texture.
+
+## Reference Priority Pattern
+
+When the user provides reference images or a confirmed project card, state priority explicitly:
+
+```text
+参考优先级：如果上传了角色、产品、动物、交通工具、环境或故事板参考图，请严格使用参考图控制外观、比例、服装、颜色、道具和场景关系。
+本故事板控制：分镜顺序、动作逻辑、镜头构图、空间连续性、光线方向、情绪节奏和转场逻辑。
+```
 
 ## Negative Prompt Defaults
 

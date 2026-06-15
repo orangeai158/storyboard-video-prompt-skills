@@ -6,10 +6,14 @@ Use this reference when generating Seedance 2.0 prompts from a confirmed storybo
 
 Seedance prompts should be generated from the final confirmed storyboard. If the user has not confirmed a storyboard, ask for the final storyboard or offer to create the Image2 storyboard first.
 
+Never tell Seedance to animate the full nine-grid sheet as a single image. The prompt must state that the uploaded final storyboard is the visual reference and the video must be generated panel by panel in order.
+
 ## Output Format
 
 ```markdown
 ## 2. Seedance 2.0 视频制作提示词
+
+使用上传的最终九宫格故事板作为唯一主要视觉参考。不要整图生成，不要把九宫格当成一张完整图片来动画化，必须按第 1 格到第 9 格的分镜顺序生成连续视频。
 
 视频总设定：
 - 时长：约 15 秒
@@ -32,6 +36,17 @@ Seedance prompts should be generated from the final confirmed storyboard. If the
 
 镜头 2 / 0:02-0:04
 ...
+```
+
+## Opening Lock Formula
+
+Use this pattern at the beginning of Seedance output:
+
+```text
+REFERENCE: 使用上传的最终九宫格故事板作为主要视觉参考。严格保持 [角色/产品/场景/光线/故事顺序] 一致。不要整图生成，不要把九宫格当作一张图动画化，必须按照第 1 格到第 9 格分镜顺序生成连续视频。不要添加额外角色。不要改变剧情。不要改变服装、道具、产品外观和场景关系。不要添加字幕、logo、UI、水印。不要出现文字和数字。
+STYLE: [visual style, lighting, texture, genre]
+CAMERA RULES: [pace, motion intensity, emotional rhythm, what to avoid]
+TIMESTAMPED SEQUENCE:
 ```
 
 ## Fifteen-Second Timing
@@ -73,6 +88,8 @@ Each shot prompt should include:
 - Environmental motion such as light, smoke, rain, fabric, particles, or crowd flow.
 - Transition to the next shot.
 - Negative constraints to prevent deformation and identity drift.
+
+Each shot should be written as a production instruction, not a short caption. Include visible motion, environmental motion, sound, rhythm, and transition.
 
 ## Negative Constraint Defaults
 

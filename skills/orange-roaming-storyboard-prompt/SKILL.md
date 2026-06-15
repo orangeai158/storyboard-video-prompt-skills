@@ -64,6 +64,8 @@ If key details are missing, infer a tasteful default and mark it as an assumptio
    - Preserve the same protagonist/product/setting unless the story intentionally changes them.
    - Include a concise negative prompt section.
    - Use the template in `references/image2_storyboard_template.md` when detailed formatting is needed.
+   - Use `references/storyboard_case_patterns.md` to choose the right narrative pattern for emotional shorts, TVCs, travel films, wuxia, cyberpunk, action comedy, or character boards.
+   - Use `references/style_genre_rules.md` when the user asks for a specific visual genre or the concept implies one.
 4. For Seedance, only after the storyboard is confirmed:
    - Generate prompts in storyboard order for an approximately 15-second video.
    - Include shot duration, camera movement, subject action, transition, sound/music suggestion, and negative constraints.
@@ -79,6 +81,7 @@ If key details are missing, infer a tasteful default and mark it as an assumptio
 - Maintain visual consistency across panels by repeating the same anchor details.
 - Keep prompts dense enough for generation, but avoid stuffing contradictory style references.
 - If using brand/product content, keep the product visible at the important story beats without turning every frame into a hard sell.
+- For Seedance, explicitly prevent animating the whole nine-grid image as one picture; the video must follow panel order.
 
 ## Output Shape
 
